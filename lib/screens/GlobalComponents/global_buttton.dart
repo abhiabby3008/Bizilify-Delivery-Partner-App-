@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../constants/constants.dart';
 
+// ignore: must_be_immutable
 class GlobalButtton extends StatelessWidget {
   GlobalButtton(
       {super.key, this.text, this.width, this.height, required this.pressed});
