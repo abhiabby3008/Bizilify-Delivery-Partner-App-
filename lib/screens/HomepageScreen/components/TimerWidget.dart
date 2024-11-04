@@ -9,9 +9,8 @@ class TimerWidget extends StatelessWidget {
   const TimerWidget({
     super.key,
     controller,
-  }) : _controller = controller;
+  });
 
-  final _controller;
 
   @override
   Widget build(BuildContext context) {

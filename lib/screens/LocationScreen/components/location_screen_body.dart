@@ -48,15 +48,15 @@ class LocationBody extends StatelessWidget {
           SizedBox(
             height: 34.h,
           ),
-          GlobalButtton(
-            pressed: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => const HomePage()));
-            },
-            height: 56.h,
-            width: 260.w,
-            text: "Enable Location",
-          )
+          // GlobalButtton(
+          //   pressed: () {
+          //     Navigator.push(
+          //         context, MaterialPageRoute(builder: (context) => const HomePage()));
+          //   },
+          //   height: 56.h,
+          //   width: 260.w,
+          //   text: "Enable Location",
+          // )
         ],
       ),
     );
